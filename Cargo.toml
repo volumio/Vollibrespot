@@ -1,6 +1,6 @@
 [package]
 name = "vollibrespot"
-version = "0.2.4"
+version = "0.2.6"
 authors = ["ashthespy <https://github.com/ashthespy/>"]
 build = "build.rs"
 edition = "2018"
@@ -26,8 +26,8 @@ hex = "0.4"
 toml = "0.5"
 
 [dependencies.librespot]
-git = "https://github.com/ashthespy/librespot"
-branch="vollibrespot"
+git = "https://github.com/librespot-org/librespot"
+branch="master"
 # path = "../librespot"
 default-features = false
 features = ["alsa-backend"]
